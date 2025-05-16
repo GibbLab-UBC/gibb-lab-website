@@ -4,7 +4,7 @@ category: staff
 title: Dr. Ewan Gibb
 image: researcher.png
 role: Lab Director
-permalink: 'team/researcher-name'
+permalink: 'team/EwanGibb'
 social:
     twitter: 
     linkedin: 
