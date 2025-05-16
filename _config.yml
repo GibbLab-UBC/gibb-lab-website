@@ -10,8 +10,8 @@ title: The Gibb Lab
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   The Gibb Lab at the Vancouver Prostate Centre
-baseurl: ""
-url: "https://gibblab.com"
+baseurl: "/gibb-lab-website"
+url: "https://wunsor.github.io"
 
 include:
   - .htaccess
