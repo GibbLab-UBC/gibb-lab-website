@@ -1,18 +1,18 @@
 ---
 layout: member
 category: staff
-title: Dr. Ewan Gibb
+title: Researcher Name
 image: researcher.png
 role: Lab Director
 permalink: 'team/researcher-name'
 social:
-    twitter: 
-    linkedin: 
-    google-scholar: 
-    github: 
+    twitter: https://twitter.com/
+    linkedin: https://www.linkedin.com/
+    google-scholar: https://scholar.google.fr/
+    github: https://github.com/
     website:
-    orcid: 
-    research-gate: 
+    orcid: https://orcid.org/
+    research-gate: https://www.researchgate.net/
 education:
  - Education
 ---
