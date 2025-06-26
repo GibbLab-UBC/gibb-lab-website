@@ -1,7 +1,7 @@
 ---
 title: "Vacancies"
 layout: default
-excerpt: "Openings"
+excerpt: "The Gibb Lab -- Openings"
 sitemap: false
 permalink: /vacancies
 ---

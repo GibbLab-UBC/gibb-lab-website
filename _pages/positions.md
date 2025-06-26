@@ -1,7 +1,7 @@
 ---
 title: "Positions"
 layout: default
-excerpt: "RT2 Lab -- Positions"
+excerpt: "The Gibb Lab -- Positions"
 sitemap: false
 permalink: /positions/
 ---
