@@ -1,31 +1,43 @@
 <div id="footer" class="panel">
   <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<p>{{ site.title }}</p>
-				<img class="img-fluid" src="{{ site.baseurl }}/images/logo/lab-logo.png"
-				     style="max-width: 100px;">
-			</div>
+    <div class="container-fluid">
+      <div class="row">
 
-			<div class="col-sm-4">
-				<p>Links</p>
-				<ul class="list-unstyled">
-					<li><a href="">Github</a></li>
-					<li><a href="https://www.ubc.ca/">UBC</a></li>
-					<li><a href="https://www.prostatecentre.com/about-us/people/dr-ewan-gibb">VPC</a></li>
-					<li><a href="https://www.vchri.ca/our-research/research-centres-and-programs/m-h-mohseni-institute-urologic-sciences">Mohseni Institute</a></li>
-				</ul>
-			</div>
+        <!-- Lab Logos -->
+        <div class="col-sm-4">
+          <p>The Gibb Lab</p>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+            <img class="img-fluid" src="{{ site.baseurl }}/images/logo/UBC_logo.png" alt="UBC Logo" style="width: 150px; height: auto;">
+            <img class="img-fluid" src="{{ site.baseurl }}/images/logo/vpc_logo.png" alt="Vancouver Prostate Centre Logo" style="width: 150px; height: auto;">
+          </div>
+        </div>
 
-			<div class="col-sm-4">
-				<p>Contact</p>
-				<p>Robert H.N. Ho Research Centre, 2635 Laurel St 5th Floor, Vancouver, BC V6H 3Z6</p>
-			</div>
-		</div>
-	</div>
+        <!-- Useful Links -->
+        <div class="col-sm-4">
+          <p>Links</p>
+          <ul class="list-unstyled">
+            <li><a href="#">Github</a></li>
+            <li><a href="https://www.ubc.ca/" target="_blank">UBC</a></li>
+            <li><a href="https://www.prostatecentre.com/about-us/people/dr-ewan-gibb" target="_blank">VPC</a></li>
+            <li><a href="https://www.vchri.ca/our-research/research-centres-and-programs/m-h-mohseni-institute-urologic-sciences" target="_blank">Mohseni Institute</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-sm-4">
+          <p>Contact</p>
+          <address>
+            Robert H.N. Ho Research Centre,<br>
+            2635 Laurel St, 5th Floor<br>
+            Vancouver, BC V6H 3Z6
+          </address>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
 
+<!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
