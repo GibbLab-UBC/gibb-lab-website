@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<div id="homeid" class="col-sm-8 ml-0 nopadding-left">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/LabHeader.png" alt="Banner Image" class="img-responsive" />
-
-    {{ content }}
+<div style="width: 100%; margin: 0; padding: 0;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/slider/GibbLab_title2.png"
+       alt="Banner Image"
+       style="width: 100%; height: auto; display: block;" />
 </div>
 
-<div id="newsid" class="col-sm-4 nopadding-right">
-    {% include tweets.html %}
+<div id="homeid" style="width: 100%; padding: 40px 60px;">
+  {{ content }}
 </div>
+
