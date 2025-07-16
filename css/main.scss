@@ -5,14 +5,20 @@
 
 body {
   padding-top: 70px;
-  text-align: justify;
+  text-align: left;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+.fade-image {
+    transition: opacity 0.3s ease; 
+}
 
+.fade-image:hover {
+  opacity: 0.7; 
+}
 
 figcaption {
   text-align: right;
