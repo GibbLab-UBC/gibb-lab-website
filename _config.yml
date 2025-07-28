@@ -3,7 +3,7 @@ title: The Gibb Lab
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   The Gibb Lab at the Vancouver Prostate Centre
-baseurl: ""
+baseurl: "/gibb-lab-website"
 url: "https://gibblab.ca"
 
 include:
