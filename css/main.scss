@@ -1,21 +1,34 @@
 ---
 ---
-
 @import "bootstrap";
 
+/* Palette */
+:root {
+  --bg: #0D1B2A;
+  --surface: #1B263B;
+  --text: #E0E1DD;
+  --accent: #778DA9;
+  --accent-hover: #A9BCD0;
+  --footer-bg: #0A192F;
+}
+
+/* General layout */
 body {
+  background-color: var(--bg);
+  color: var(--text);
   padding-top: 70px;
   text-align: left;
+  scroll-behavior: smooth;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* Image Hover Fade */
 .fade-image {
-    transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease; 
 }
-
 .fade-image:hover {
   opacity: 0.7; 
 }
@@ -24,80 +37,66 @@ figcaption {
   text-align: right;
   margin-top: -20px;
   margin-bottom: 20px;
+  color: var(--text);
 }
 
-.breadcrumb {
-  background: none;
-  border: none;
-  display: block;
-  margin-left: 0;
-  padding-left: 0;
-}
-
+/* Spacing helpers */
 .nopadding-left {
   padding-left: 0 !important;
   margin-left: 0 !important;
 }
-
 .nopadding-right {
   padding-right: 0 !important;
   margin-right: 0 !important;
 }
-
 .team-member-card {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 900px; /* or 950px */
+  max-width: 900px;
 }
 
 /* Carousel */
-
 .carousel {
-  border-radius: 3px 3px 3px 3px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  border-radius: 3px;
+  margin: 20px 0;
+  background-color: var(--surface);
+  border: none;
 }
 
-/**/
-
-body {
-  background-color: #000000;
-  color: #f0f0f0;
-}
-
+/* Links */
 a {
-  color: #80cbc4;
+  color: var(--accent);
 }
-
 a:hover {
-  color: #b2dfdb;
+  color: var(--accent-hover);
 }
 
 /* Panels and footer */
 .panel, .panel-footer {
-  background-color: #000000;
-  color: #f0f0f0;
+  background-color: var(--surface);
+  color: var(--text);
   border: none;
+}
+#footer .panel-footer {
+  background-color: var(--footer-bg);
+  color: var(--text);
 }
 
 /* Navigation bar override */
 .navbar, .navbar-default {
-  background-color: #000000;
-  border-color: #333;
+  background-color: var(--bg);
+  border-color: var(--surface);
 }
-
 .navbar a, .navbar-nav > li > a {
-  color: #ddd !important;
+  color: var(--text) !important;
 }
-
 .navbar a:hover, .navbar-nav > li > a:hover {
   color: #fff !important;
-  background-color: #333 !important;
+  background-color: var(--surface) !important;
 }
 
 /* Lists, text, and layout */
@@ -105,46 +104,62 @@ ul, li, p, h1, h2, h3, h4, h5, h6, address, figcaption {
   color: inherit;
 }
 
-/* Tables (if used) */
+/* Tables */
 table {
-  background-color: #000000;
-  color: #f0f0f0;
-  border: 1px solid #444;
-}
-
-th, td {
-  border-color: #444 !important;
-}
-
-/* Optional: Code blocks or preformatted text */
-pre, code {
-  background-color: #000000;
-  color: #f8f8f2;
-}
-
-/* Carousel override for dark theme */
-.carousel {
-  background-color: #000000;
-  border: none;
-}
-
-table {
-  background-color: #000000;
-  color: #f0f0f0;
-  border: none;
+  background-color: var(--surface);
+  color: var(--text);
   border-collapse: collapse;
   width: 100%;
 }
-
-td, th {
-  border: none;
+th, td {
+  border: 1px solid #415A77;
   padding: 10px;
 }
 
-#footer .panel-footer {
-  background-color: #0a0a0a;
-  color: #f0f0f0;
+/* Code blocks */
+pre, code {
+  background-color: #1B263B;
+  color: #E0E1DD;
+}
+
+img {
+  border: 2px solid #415A77; 
+  border-radius: 6px;
+}
+
+.no-border {
+  border: none !important;
+  border-radius: 0 !important; 
+}
+
+.event {
+  margin-bottom: 50px;
+}
+
+.event h3 {
+  color: var(--accent); /* From your theme */
+  margin-bottom: 15px;
+}
+
+.event-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.event-gallery img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #415A77;
+  border-radius: 6px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  object-fit: cover;
+}
+
+.event-gallery img:hover {
+  transform: scale(1.03);
+  border-color: #A9BCD0;
 }
 
 
- 
+
