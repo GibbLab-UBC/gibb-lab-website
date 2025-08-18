@@ -8,35 +8,36 @@ permalink: /research/
 
 <h1>{{ page.title }}</h1>
 <hr>
-
-<div>
-  <p>
-    The Gibb lab explores how molecular and spatial profiling can transform the way we understand and treat urologic cancers. By integrating transcriptomics, digital pathology, and machine learning, we aim to uncover hidden patterns in tumor biology and translate them into clinically actionable tools. Our work focuses on bridging the gap between molecular insight and real-world decision making to help clinicians tailor care to individual patients.
-  </p>
-  <p>
-    Click on one of the project icons to explore the research taking place at The Gibb Lab!
-</div>
-
-<hr>
-
-<!-- Image Buttons -->
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <a href="#section1"><img src="{{ site.baseurl }}/images/researchImages/Gibb_chain.png" class = "fade-image" alt="Chain" style="width: 200px; cursor: pointer;"></a>
   <a href="#section2"><img src="{{ site.baseurl }}/images/researchImages/Gibb_compass.png" class = "fade-image" alt="Compass" style="width: 200px; cursor: pointer;"></a>
   <a href="#section3"><img src="{{ site.baseurl }}/images/researchImages/Gibb_anchor.png" class = "fade-image" alt="Anchor" style="width: 200px; cursor: pointer;"></a>
   <a href="#section4"><img src="{{ site.baseurl }}/images/researchImages/Gibb_clock.png" class = "fade-image" alt="Clock" style="width: 200px; cursor: pointer;"></a>
 </div>
 
+<hr>
 
+<div style="text-align: center; margin-top: 20px">
 
-<div class="research-section" id="section1">
-  <hr>
-  <div class="section-header">
-    <h3>Risk Stratification of Non-Muscle Invasive Bladder Cancer (NMIBC)</h3>
-  </div>
-  <div class="section-body">
-    <p>NMIBC makes up about 75% of new bladder cancer diagnoses, most commonly as stage Ta, low-grades (TaLG). While these cases often have excellent outcomes, certain patients — particularly those with recurrent, multifocal, or large tumors — face a significantly higher risk of progression to muscle-invasive bladder cancer (MIBC), which requires more aggressive treatment and carries a poorer prognosis.</p>
-    <p>Current clinical tools can't reliably identify which TaLG patients are truly at risk. There is a clear need for better risk stratification to personalize management and improve outcomes.</p>
+  <p>
+    The Gibb lab explores how molecular and spatial profiling can transform the way we understand and treat urologic cancers. By integrating transcriptomics, digital pathology, and machine learning, we aim to uncover hidden patterns in tumor biology and translate them into clinically actionable tools. Our work focuses on bridging the gap between molecular insight and real-world decision making to help clinicians tailor care to individual patients.
+  </p>
+  <p>
+    Click on one of the project icons to explore the research taking place at The Gibb Lab!
+  </p>
+
+</div>
+
+<hr>
+
+<div class="info-block">
+    <img src="{{ site.baseurl }}/images/researchImages/Gibb_chain.png" id="section1">
+    <div class="text">
+        <h2>Risk Stratification of Non-Muscle Invasive Bladder Cancer (NMIBC)</h2>
+        <p>NMIBC makes up about 75% of new bladder cancer diagnoses, most commonly as stage Ta, low-grades (TaLG). While these cases often have excellent outcomes, certain patients — particularly those with recurrent, multifocal, or large tumors — face a significantly higher risk of progression to muscle-invasive bladder cancer (MIBC), which requires more aggressive treatment and carries a poorer prognosis.</p>
+        <div>
+  <div class="text">
+    <div class="more-content" id="moreText1">
     <p><strong>We aim to:</strong></p>
     <ul>
       <li>Validate promising molecular classifiers in large, well-annotated TaLG cohorts</li>
@@ -47,19 +48,31 @@ permalink: /research/
     <ul>
       <li><a href="https://pubmed.ncbi.nlm.nih.gov/40494734/">Long Noncoding RNAs Define High-Risk Subgroup in Low-Grade NMIBC</a></li>
     </ul>
+
+    </div>
+    <button class="see-more-btn" id="seeMoreBtn1">See more</button>
   </div>
-  <img src="{{ site.baseurl }}/images/researchImages/TaLG.png" alt = "Progression and Recurrence Table" style="display: block; margin: 0 auto; width: 850px; ">
+</div>
+    </div>
 </div>
 
-<div class="research-section" id="section2">
-  <hr>
-  <div class="section-header">
-    <h3>Upstaging at the Time of Radical Cystectomy</h3>
-  </div>
-  <div class="section-body">
-    <p>Accurately staging bladder cancer before surgery remains a major challenge. In patients with presumed organ-confined disease—including high-grade T1 (HGT1) or T2 tumors—up to 40% are found to have more advanced disease (pT3+ and/or N+) at the time of radical cystectomy if they don't receive neoadjuvant chemotherapy.</p>
-    <p>Molecular subtyping offers promise, but current tools still lack the precision needed to reliably identify high-risk patients. This gap affects our ability to guide treatment decisions and avoid under- or overtreatment.</p>
-    <p><strong>This project seeks to:</strong></p>
+
+
+
+
+<hr>
+
+<div class="info-block reverse">
+    <img src="{{ site.baseurl }}/images/researchImages/Gibb_compass.png" id="section2">
+    <div class="text">
+        <h2>Upstaging at the Time of Radical Cystectomy</h2>
+<p>Accurately staging bladder cancer before surgery remains a major challenge, as many presumed organ-confined cases (HGT1/T2) are later upstaged to pT3+ or N+ at cystectomy.</p>
+<p>Molecular subtyping shows promise, but current classifiers lack sufficient precision to reliably identify high-risk patients.</p>
+
+      <div>
+  <div class="text">
+    <div class="more-content" id="moreText2">
+<p><strong>This project seeks to:</strong></p>
     <ul>
       <li>Use transcriptome-based approaches to define the biology of aggressive bladder cancer</li>
       <li>Develop molecular classifiers that improve risk stratification and guide treatment</li>
@@ -72,19 +85,28 @@ permalink: /research/
       <li><a href="https://pubmed.ncbi.nlm.nih.gov/32074006/">Genomic Classifier Identifies Aggressive Luminal Bladder Tumors at Risk of Upstaging</a></li>
       <li><a href="https://pubmed.ncbi.nlm.nih.gov/31092337/">Luminal Subtype Shows Lower Upstaging Rates in Localized Urothelial Carcinoma</a></li>
     </ul>
+
+    </div>
+    <button class="see-more-btn" id="seeMoreBtn2">See more</button>
   </div>
-  <img src="{{ site.baseurl }}/images/researchImages/Upstaging.png" alt = "TaLG KM Plot" style="display: block; margin: 0 auto; width: 850px; ">
+</div>
+    </div>
 </div>
 
-<div class="research-section" id="section3">
-  <hr>
-  <div class="section-header">
-    <h3>Molecular Evolution Following Neoadjuvant Therapy</h3>
-  </div>
-  <div class="section-body">
-    <p>Despite standard treatment with neoadjuvant chemotherapy (NAC) followed by radical cystectomy, outcomes in muscle-invasive bladder cancer (MIBC) remain poor, with 5-year overall survival rates hovering around 55%. Complete pathological response (ypT0) is achieved in only ~30% of patients, and those with residual MIBC often require adjuvant therapy—extending treatment timelines and complicating care decisions.</p>
-    <p>Recent molecular profiling of post-treatment tumors has revealed distinct residual subtypes, including a "scar-like" profile similar to the p53-like subtype. Both exhibit gene expression patterns associated with wound healing, suggesting fibroblast infiltration, tumor cell remodeling, or both.</p>
-    <p><strong>Our study will:</strong></p>
+
+
+<hr>
+
+<div class="info-block">
+    <img src="{{ site.baseurl }}/images/researchImages/Gibb_anchor.png" id="section3">
+    <div class="text">
+        <h2>Molecular Evolution Following Neoadjuvant Therapy</h2>
+        <p>Despite standard treatment with neoadjuvant chemotherapy (NAC) followed by radical cystectomy, outcomes in muscle-invasive bladder cancer (MIBC) remain poor, with 5-year overall survival rates hovering around 55%. Complete pathological response (ypT0) is achieved in only ~30% of patients, and those with residual MIBC often require adjuvant therapy—extending treatment timelines and complicating care decisions.</p>
+    <p>Recent molecular profiling of post-treatment tumors has revealed distinct residual subtypes, including a "scar-like" profile similar to the p53-like subtype. Both exhibit gene expression patterns associated with wound healing, suggesting fibroblast infiltration, tumor cell remodeling, or both..</p>
+  <div>
+  <div class="text">
+    <div class="more-content" id="moreText3">
+<p><strong>Our study will:</strong></p>
     <ul>
       <li>Validate a transcriptome-based classifier to identify scar-like tumors following systemic therapy</li>
       <li>Define the cellular composition and spatial organization of these tumors</li>
@@ -95,27 +117,75 @@ permalink: /research/
       <li><a href="https://pubmed.ncbi.nlm.nih.gov/33785257/">Molecular Characterization of Residual Bladder Cancer after Neoadjuvant Pembrolizumab</a></li>
       <li><a href="https://pubmed.ncbi.nlm.nih.gov/30224344/">Divergent Biological Response to Neoadjuvant Chemotherapy in Muscle-invasive Bladder Cancer</a></li>
     </ul>
+    </div>
+    <button class="see-more-btn" id="seeMoreBtn3">See more</button>
   </div>
-  <img src="{{ site.baseurl }}/images/researchImages/Scar-like.png" alt = "Scar-like Heatmap" style="display: block; margin: 0 auto; width: 850px; ">
+</div>  
+  </div>
 </div>
 
-<div class="research-section" id="section4">
-  <hr>
-  <div class="section-header">
-    <h3>Biomarker Discovery in Intermediate-Risk Prostate Cancer</h3>
-  </div>
-  <div class="section-body">
-    <p>Grade Group 2 (GG2) prostate cancer (PCa) presents a clinical dilemma: some men can be safely managed with active surveillance (AS), while others harbor aggressive disease requiring intervention. Current clinical tools lack the precision to distinguish these patients, leading to both overtreatment and undertreatment.</p>
+
+
+<hr>
+
+<div class="info-block reverse">
+    <img src="{{ site.baseurl }}/images/researchImages/Gibb_clock.png" alt="Mitochondria">
+    <div class="text">
+        <h2>Biomarker Discovery in Intermediate-Risk Prostate Cancer</h2>
+        <p>Grade Group 2 (GG2) prostate cancer (PCa) presents a clinical dilemma: some men can be safely managed with active surveillance (AS), while others harbor aggressive disease requiring intervention. Current clinical tools lack the precision to distinguish these patients, leading to both overtreatment and undertreatment.</p>
     <p>We are investigating long non-coding RNAs (lncRNAs) and digital pathology features as novel biomarkers in GG2 prostate cancer. Preliminary data suggest distinct molecular subtypes with prognostic relevance, and AI-based image analysis offers new ways to extract predictive features from routine biopsy slides.</p>
+  <div>
+  <div class="text">
+    <div class="more-content" id="moreText4">
     <p><strong>We aim to:</strong></p>
     <ul>
       <li>Define molecular subtypes of GG2 tumors linked to adverse outcomes</li>
       <li>Develop and validate a transcriptome-based risk classifier</li>
       <li>Integrate spatial and image-based features to enhance prediction</li>
     </ul>
+    </div>
+    <button class="see-more-btn" id="seeMoreBtn4">See more</button>
   </div>
-  <img src="{{ site.baseurl }}/images/researchImages/Prostate.png" alt = "Prostate Cluster Plots" style="display: block; margin: 0 auto; width: 850px; ">
+</div>  
+  </div>
 </div>
 
 
+
 <hr>
+
+<script>
+  // Box 1
+  const btn1 = document.getElementById('seeMoreBtn1');
+  const more1 = document.getElementById('moreText1');
+  btn1.addEventListener('click', () => {
+    more1.classList.toggle('show');
+    btn1.textContent = more1.classList.contains('show') ? 'See less' : 'See more';
+  });
+
+  // Box 2
+  const btn2 = document.getElementById('seeMoreBtn2');
+  const more2 = document.getElementById('moreText2');
+  btn2.addEventListener('click', () => {
+    more2.classList.toggle('show');
+    btn2.textContent = more2.classList.contains('show') ? 'See less' : 'See more';
+  });
+
+  // Box 3
+  const btn3 = document.getElementById('seeMoreBtn3');
+  const more3 = document.getElementById('moreText3');
+  btn3.addEventListener('click', () => {
+    more3.classList.toggle('show');
+    btn3.textContent = more3.classList.contains('show') ? 'See less' : 'See more';
+  });
+
+  // Box 4
+  const btn4 = document.getElementById('seeMoreBtn4');
+  const more4 = document.getElementById('moreText4');
+  btn4.addEventListener('click', () => {
+    more4.classList.toggle('show');
+    btn4.textContent = more4.classList.contains('show') ? 'See less' : 'See more';
+  });
+</script>
+
+
